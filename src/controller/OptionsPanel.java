@@ -98,6 +98,8 @@ public class OptionsPanel extends JPanel implements ActionListener, ChangeListen
 		
 		if(e.getSource() == saveButton){
 			imageHandler.saveImage();
+			//place holder for now, least you'll know it did something
+			JOptionPane.showMessageDialog(null, "Save Successful");
 		}
 	}
 
